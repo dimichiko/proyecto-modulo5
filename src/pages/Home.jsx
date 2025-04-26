@@ -21,7 +21,9 @@ function Home() {
 
   if (loading) return <p className="text-center mt-10 text-lg">Cargando...</p>;
   if (error)
-    return <p className="text-center mt-10 text-red-500 text-lg">Error: {error}</p>;
+    return (
+      <p className="text-center mt-10 text-red-500 text-lg">Error: {error}</p>
+    );
 
   return (
     <div className="min-h-screen bg-gray-100 py-12">
@@ -39,7 +41,9 @@ function Home() {
                 <h2 className="text-2xl font-semibold mb-3 text-gray-800 hover:text-indigo-600 leading-snug">
                   {post.title}
                 </h2>
-                <p className="text-gray-600 text-sm">{post.body.slice(0, 120)}...</p>
+                <p className="text-gray-600 text-sm">
+                  {post.body.slice(0, 120)}...
+                </p>
               </Link>
             </div>
           ))}
