@@ -1,12 +1,62 @@
-# React + Vite
+# Proyecto Módulo 5 - React + Vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada como parte del proyecto académico del Módulo 5.  
+Consiste en una SPA (Single Page Application) que consume una API pública para mostrar una lista de posts y su detalle.  
+Incluye manejo de rutas dinámicas, control de errores mediante Error Boundaries y despliegue automático a Netlify.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
+- React
+- Vite
+- TailwindCSS
+- React Router DOM
+- Netlify
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Instalación local
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/tuusuario/proyecto-modulo5.git
+```
+
+Instalar las dependencias:
+
+```bash
+npm install
+```
+
+Correr en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Acceso en producción
+
+Accede al proyecto desplegado aquí:  
+👉 [Ver sitio en Netlify](https://tusitio.netlify.app)
+
+---
+
+## 📋 Funcionalidades principales
+
+- Consumo de API pública `jsonplaceholder.typicode.com`
+- Listado dinámico de posts
+- Navegación entre Home y detalle de cada Post
+- Manejo de errores con Error Boundary
+- Diseño responsivo con TailwindCSS
+- Deploy automático vía GitHub + Netlify
+
+---
+
+## 📚 Estado del proyecto
+
+✅ Proyecto finalizado y desplegado exitosamente.  
+✅ Código limpio, modular y sin errores de ESLint.  
+✅ Listo para entrega académica o portafolio profesional.
