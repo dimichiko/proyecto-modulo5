@@ -5,14 +5,14 @@ function CardCrypto({ crypto }) {
   
   return (
     <Link to={`/crypto/${crypto.id}`} className="block h-full">
-      <div className="bg-white rounded-xl shadow-md hover:shadow-lg border border-gray-200 transition-all duration-300 p-3 h-full flex flex-col">
-        <div className="flex items-center mb-2">
+      <div className="bg-white rounded-xl shadow-md hover:shadow-lg border border-gray-200 transition-all duration-300 p-4 h-full flex flex-col">
+        <div className="flex items-center mb-3">
           <img
             src={crypto.image}
             alt={crypto.name}
-            className="w-6 h-6 object-contain"
+            className="w-8 h-8 object-contain"
           />
-          <h2 className="text-sm font-bold text-gray-800 ml-2 truncate">
+          <h2 className="text-base font-bold text-gray-800 ml-2 truncate">
             {crypto.name}
           </h2>
         </div>
