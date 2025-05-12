@@ -68,6 +68,6 @@ Accede al proyecto desplegado aquí:
 
 ## 👨‍💻 Autor
 
-Desarrollado por ** Dimitris Vamvoukas**.
+Desarrollado por Dimitris Vamvoukas.
 
 ---
